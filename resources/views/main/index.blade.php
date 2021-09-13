@@ -96,10 +96,10 @@
     @include('sections.news')
 
     <!--====== SEJARAH ORMAWA DI INDO ======-->
-    @include('sections.sejarah1')
+    @include('sections.sejarah-satu')
 
     <!--====== SEJARAH STTB ======-->
-    @include('sections.sejarah2')
+    @include('sections.sejarah-dua')
 
     <!--====== PRESTASI MAHASISWA ======-->
     @include('sections.prestasi')
@@ -260,7 +260,7 @@
     <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
 
     <!--====== PART START ======-->
-<!--
+    <!--
     <section class="">
         <div class="container">
             <div class="row">

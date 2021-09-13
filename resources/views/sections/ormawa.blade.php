@@ -1,374 +1,259 @@
- <section id="team" class="team-area pt-120">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4">
-                    <div class="section-title text-center pb-40">
-                        <div class="line m-auto"></div>
-                        <h3 class="title">Organisasi Mahasiswa <br>Sekolah Tinggi Teknologi Bandung</h3>
-                    </div> <!-- section title -->
+<section id="team">
+    <div class="container">
+        <div class="text-ormawa text-center">
+            <h3 class="">
+                Organisasi Mahasiswa
+            </h3>
+            <h3 class=" text-center">
+                Sekolah Tinggi Teknologi Bandung</h3>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-dpm.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            DPM
+                        </h5>
+                        <p class="card-text text-center">Dewan Perwakilan Mahasiswa</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
                 </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-dpm.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">DPM</a></h5>
-                            <p class="text">Dewan Perwakilan Mahasiswa</p>
-                        </div>
-                    </div> <!-- single team -->
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-bem.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            BEM
+                        </h5>
+                        <p class="card-text text-center">Badan Ekskutif <br> Mahasiswa</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-hmti.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            HMTI
+                        </h5>
+                        <p class="card-text text-center">Himpunan Mahasiswa Teknik Industri</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-himatif.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            HIMATIF
+                        </h5>
+                        <p class="card-text text-center">Himpunan Mahasiswa Teknik Informatika</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-hmdkv.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            HMDKV
+                        </h5>
+                        <p class="card-text text-center">Himpunan Mahasiswa Desain Komunikasi Visual</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-ikmi.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            IKMI
+                        </h5>
+                        <p class="card-text text-center">Ikatan Mahasiswa Islam</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-pmk.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            PMK
+                        </h5>
+                        <p class="card-text text-center">Persekutuan Mahasiswa Kristen</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-kepang.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            KEPANG
+                        </h5>
+                        <p class="card-text text-center">Keluarga Paduan Angklung</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-musik.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            MUSIK
+                        </h5>
+                        <p class="card-text text-center">Music Society</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-ufp.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            UFP
+                        </h5>
+                        <p class="card-text text-center">Unit Film Maker & Photography</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-pasuma.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            PASUMA
+                        </h5>
+                        <p class="card-text text-center">Paduan Suara Mahasiswa</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-oxigen.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            OXIGEN
+                        </h5>
+                        <p class="card-text text-center">Oxigen</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-mapala.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            MAPALA SURAUNG
+                        </h5>
+                        <p class="card-text text-center">Mahasiswa Pecinta Alam</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
+                </div>
+            </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-bem.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">BEM</a></h5>
-                            <p class="text">Badan Eksekutif <br> Mahasiswa</p>
-                        </div>
-                    </div> <!-- single team -->
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-fdc.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            FDC
+                        </h5>
+                        <p class="card-text text-center">Fabulous Dance Crew</p>
+                    </div>
+                    <div class="row-100px">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-hmti.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">HMTI</a></h5>
-                            <p class="text">Himpunan Mahasiswa Teknik Industri</p>
-                        </div>
-                    </div> <!-- single team -->
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-basket.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            BASKET
+                        </h5>
+                        <p class="card-text text-center">Basket</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
                 </div>
+            </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-himatif.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">HIMATIF</a></h5>
-                            <p class="text">Himpunan Mahasiswa Teknik Informatika</p>
-                        </div>
-                    </div> <!-- single team -->
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none ">
+                    <img src="assets/images/logo-teater.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            TEATER
+                        </h5>
+                        <p class="card-text text-center">Teater Saka Daraka</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-hmdkv.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">HMDKV</a></h5>
-                            <p class="text">Himpunan Mahasisa Desain Komunikasi Visual</p>
-                        </div>
-                    </div> <!-- single team -->
+            </div>
+            <div class="col-3">
+                <div class="card text-center" style="width: 15rem; border: none">
+                    <img src="assets/images/logo-parti.png" class="card-img-top img-ormawa" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            PARTI
+                        </h5>
+                        <p class="card-text text-center">Paguyuban Rider Technical Independent</p>
+                    </div>
+                    <div class="row">
+                        <a href="" class="btn btn-primary mt-lg-4">Details</a>
+                    </div>
                 </div>
+            </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-ikmi.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">IKMI</a></h5>
-                            <p class="text">Ikatan Mahasiswa Islam</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-pmk.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">PMK</a></h5>
-                            <p class="text">Persekutuan Mahasiswa Kristen</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-kepang.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">KEPANG</a></h5>
-                            <p class="text">Keluarga Paduan Angklung</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-musik.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">Musik</a></h5>
-                            <p class="text">Music Society</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-futsal.png" alt="Team" style="width: 20px">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">Futsal</a></h5>
-                            <p class="text">Futsal</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
 
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-ufp.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">UFP</a></h5>
-                            <p class="text">Unit Film maker & Photography</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-pasuma.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">PASUMA</a></h5>
-                            <p class="text">Paduan Suara Mahasiswa</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-oxigen.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">OXIGEN</a></h5>
-                            <p class="text">Oxigen</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-mapala.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">MAPALA SURAUNG</a></h5>
-                            <p class="text">Mahasiswa Pecinta Alam</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-fdc.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">FDC</a></h5>
-                            <p class="text">Fabulous Dance Crew</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-teater.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">TEATER SAKA DARAKA</a></h5>
-                            <p class="text">Teater</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-basket.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">BASKET</a></h5>
-                            <p class="text">Basket</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-sm-7">
-                    <div class="single-team text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                        <div class="team-image">
-                            <img src="assets/images/logo-parti.png" alt="Team">
-                            {{-- <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-instagram-filled"></i></a></li>
-                                    <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
-                                </ul>
-                            </div> --}}
-                        </div>
-                        <div class="team-content">
-                            <h5 class="holder-name"><a href="#">PARTI</a></h5>
-                            <p class="text">Paguyuban Rider Technical Independent</p>
-                        </div>
-                    </div> <!-- single team -->
-                </div>
-
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+        </div>
+    </div>
+</section>
